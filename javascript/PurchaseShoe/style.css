@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}   
+.main{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+.main img {
+    width: 350px;
+    height: 200px;
+     border-radius: 8px;
+    object-fit: cover;
+}
+
+.main button{
+    background: green;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: white;
+    border-color: green;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main button:hover{
+    opacity: 0.9;
+    color: rgb(12, 35, 12)0, 196, 10);
+    cursor: pointer;
+}
+
+.main p{
+    color:red;
+}
