@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <p>Casio</p>
+        <p id="value">0</p>
+        <div class="number">
+        <button id="1" onclick="num1()">1</button>
+        <button id="2" onclick="num2()">2</button>
+        <button id="3" onclick="num3()">3</button>
+        <button id="4" onclick="num4()">4</button>
+        <button id="5" onclick="num5()">5</button>
+        <button id="6" onclick="num6()">6</button>
+        <button id="7" onclick="num7()">7</button>
+        <button id="8" onclick="num8()">8</button>
+        <button id="9" onclick="num9()">9</button>
+        <button id="0" onclick="num0()">0</button>
+        </div>
+        <div class="operations">
+            <button  onclick="add()">+</button>
+            <button  onclick="sub()">-</button>
+            <button  onclick="mul()">*</button>
+            <button  onclick="div()">/</button>
+            <button  onclick="total()">=</button>
+        </div>
+        <div class="clear">
+        <button onclick="clearDisplay()">C</button>
+        <p id="final"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
